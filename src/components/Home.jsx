@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import NikeLogo from "../assets/images/nike.png"
 
 export const Home = () => {
     const [image, setImage] = useState("./src/assets/images/2.png");
@@ -19,9 +20,9 @@ export const Home = () => {
             <div className="sticky top-0 z-20 bg-white ">
                 <div className="container mx-auto py-5 px-10 md:px-16">
                     <ul className='flex justify-between items-center'>
-
+{/* nav */}
                         <div className="">
-                            <img src="./src/assets/images/nike.png" alt="Nike Logo" className='w-10' />
+                            <img src={NikeLogo} alt="Nike Logo" className='w-10' />
                         </div>
 
 
